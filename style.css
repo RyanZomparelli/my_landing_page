@@ -60,12 +60,15 @@ p {
 }
 
 .content {
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
-  max-width: 1000px;
-  margin: 40px auto;
 }
 
 .card {
